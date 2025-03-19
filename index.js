@@ -19,7 +19,7 @@ function renderTarefas() {
 
 function adicionarTarefas() {
   if(inputElement.value === '') {
-    alert("Digite alguma cois");
+    alert("Digite alguma coisa");
     return false;
   }else {
     let novaTarefa = inputElement.value;
